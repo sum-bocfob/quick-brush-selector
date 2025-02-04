@@ -21,394 +21,475 @@
 <body style="font-family: 'Noto Sans JP', serif;">
     <div style="background-color: rgb(36, 36, 36); border-radius: 20px; font-optical-sizing: auto;
     font-weight: 500; font-style: normal; font-variation-settings: 'width' 100; width: 80%; margin: 0 auto;">
-        <!-- main -->
 
-        <h1
-            style="font-family: 'Montserrat', serif; margin: 0px auto; font-size: 80px; padding: 30px; font-weight: bold; text-align: center; background: linear-gradient(to right, #FFA348, #EC6628); color: #363636;">
-            Node Utilities</h1>
+            <!-- main -->
 
-        <div style="display: flex; justify-content: center; align-items: center; background: #f3f3f3; padding: 10px 0;">
-            <a href="https://blendermarket.com/products/node-utilities" target="_blank" rel="noopener noreferrer"
-                style="margin-right: 100px;">
-                <img src="https://github.com/sum-bocfob/publicImages/blob/main/Blender%20Market%20logo.png?raw=true"
-                    alt="Node Utilities Blender Market" style="width: 200px; height: auto; display: block;">
-            </a>
-            <a href="https://sumsum.booth.pm/items/6560406" target="_blank" rel="noopener noreferrer"
-                style="margin-right: 20px;">
-                <img src="https://github.com/sum-bocfob/publicImages/blob/main/BOOTH_Logo.png?raw=true"
-                    alt="Node Utilities BOOTH" style="width: 200px; height: auto; display: block;">
-            </a>
-        </div>
+            <h1
+                style="font-family: 'Montserrat', serif; margin-top: 0px; margin-bottom: 0px; font-size: 80px; padding: 30px; font-weight: bold; text-align: center; background: linear-gradient(to right, #8ec5fc, #a1acff, #e0c3fc); color: #363636;">
+                Quick Brush Selector</h1>
 
-
-
-
-        <div style="margin-top: 40px; text-align: center; max-width: 80% ; margin-left: auto; margin-right: auto;">
-            <h3 style="color: #f3f3f3;">このアドオンは、ノードに関する多数の機能をまとめたものです。
-            </h3>
-            <h3 style="color: #f3f3f3;">整列、反転、等間隔に配置、ノード検索、色設定などの幅広い機能があります。</h3>
-            <h4 style="color: #f3f3f3;">バージョン1.6.1以上は、Blender3.4以上対応です。</h4>
-            <br>
-            <h4 style="color: #f3f3f3;">BlenderのUIを日本語にしていると、このアドオンのUIも日本語になります。</h4>
-
-        </div>
-
-        <!-- how to use -->
-        <h2
-            style="font-size: xxx-large; padding: 30px 0; font-weight:900; text-align: center; background: linear-gradient(to right, #FFA348, #EC6628); color: #363636;">
-            使用方法</h2>
-
-
-        <h3 style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">
-            <ul style="padding-left: 0; display: inline-block; line-height: 30px;">
-                <li style="text-align: left; margin: 10px 0;">コンポジター、シェーダーエディター、ジオメトリノードエディターのいずれかを開きます。</li>
-                <ul>
-                    <li style="text-align: left; margin: 10px 0;">Dキーでユーティリティメニューを開き、Eキーで選択メニューを開きます。<br>
-                    <li style="text-align: left; margin: 10px 0;">Shift Zキー、Shift Xキーで選択中のノードの幅を変更します。<br>
-                    <li style="text-align: left; margin: 10px 0;">Shift Ctrl Alt Dキーで、選択中のノードをフレームから外して複製します。</li><br>
-                </ul>
-                <li style="text-align: left; margin: 10px 0;">ジオメトリノードエディター上でShift Eキーで、ビューワーのオンオフを切り替えます。<br>
-            </ul>
-        </h3>
-
-
-
-
-        <!-- Functions -->
-        <h2
-            style="font-size: xxx-large; padding: 30px 0; font-weight: bold; text-align: center; background: linear-gradient(to right, #FFA348, #EC6628); color: #363636;">
-            搭載機能</h2>
-        <div style="margin: 16px auto; text-align: center; color: #f3f3f3;">
-
-            <!-- Node Utility Pie Menu -->
-            <h1 style="margin-top: 80px; font-size: xx-large; font-weight: bold; padding: 10px; text-align: center;">
-                <span style="display: inline-block; width: 90%; padding: 25px 20px; border-radius:  200px; 
-                                 background: linear-gradient(to right,#168aad 0%, #1a759f 100%); text-align: center;">
-                    ノードユーティリティパイメニュー
-                </span>
-            </h1>
-
-            <div style="margin: 16px auto; display: flex; justify-content: center; max-width: 80%;">
-                <img src="https://github.com/sum-bocfob/node-utilities/blob/main/Images/UtilitiesPie_JP.png?raw=true"
-                    style="border-color: #818181; border-width: 1px; border-style: solid;">
-            </div>
-
-
-
-
-            <p style="margin: 16px auto; text-align: center; max-width: 80%;">使用可能な機能は、ノードとフレームの選択状態によって変わります。</p>
-
-
-            <div style="font-size: 21px; display: flex; align-items: center; justify-content: center; width: 80%; 
-             font-weight: bold; margin: 50px auto 0 auto;">
-                <span style="flex-grow: 1; height: 1px; background-color: #f3f3f3; margin-right: 10px;"></span>整列 / 反転
-                / 等間隔に配置
-                <span style="flex-grow: 1; height: 1px; background-color: #f3f3f3; margin-left: 10px;"></span>
-            </div>
-            <br>
-            <ul style="margin: 16px auto; padding-left: 0; display: inline-block; line-height: 30px; max-width: 80%;">
-                <li style="text-align: left;">X軸方向に整列: 選択しているノードをX軸方向に整列させます(S → X → 0と同様です)。</li>
-                <li style="text-align: left;">Y軸方向に整列: 選択しているノードをY軸方向に整列させます(S → Y → 0と同様です)。</li>
-                <li style="text-align: left;">X軸方向に反転: 選択しているノードの位置をX軸方向に反転させます(S → X → -1と同様です)。</li>
-                <li style="text-align: left;">Y軸方向に反転: 選択しているノードの位置をY軸方向に反転させます(S → Y → -1と同様です)。</li>
-                <li style="text-align: left;">X軸方向に等間隔: 選択しているノードをX軸方向に等間隔に配置させます。</li>
-                <li style="text-align: left;">Y軸方向に等間隔: 選択しているノードをY軸方向に等間隔に配置させます。</li>
-            </ul>
-
-            <div style="font-size: 21px; display: flex; align-items: center; justify-content: center; width: 80%; 
-             font-weight: bold; margin: 50px auto 0 auto">
-                <span style="flex-grow: 1; height: 1px; background-color: #f3f3f3; margin-right: 10px;"></span>色設定
-                <span style="flex-grow: 1; height: 1px; background-color: #f3f3f3; margin-left: 10px;"></span>
-            </div>
-
-            <ul style="margin: 16px auto; padding-left: 0; display: inline-block; line-height: 30px; max-width: 80%;">
-                <li style="text-align: left;">お気に入りの色に設定: 選択しているノードとフレームを、プリファレンスで設定したお気に入りの色に変更します。</li>
-                <li style="text-align: left;">カラーをオフ: 選択しているノードとフレームのカラーをオフにします。</li>
-                <li style="text-align: left;">カラーインプット: 選択しているノードとフレームの、その色に変更します。</li>
-                <li style="text-align: left;">アクティブなノードの色を貼り付け: アクティブなノードまたはフレームの色を、選択中のノードとフレームに適用します。</li>
-            </ul>
-
-            <div style="font-size: 21px; display: flex; align-items: center; justify-content: center; width: 80%; 
-             font-weight: bold; margin: 50px auto 0 auto">
-                <span style="flex-grow: 1; height: 1px; background-color: #f3f3f3; margin-right: 10px;"></span>ラベリング
-                <span style="flex-grow: 1; height: 1px; background-color: #f3f3f3; margin-left: 10px;"></span>
-            </div>
-
-            <ul style="margin: 16px auto; padding-left: 0; display: inline-block; line-height: 30px; max-width: 80%;">
-                <li style="text-align: left;">ノード名から名前を変更: ノードのラベルを、その名前もしくはその処理に応じて変更します。<br>
-                    数式、ベクトル演算、ブール演算、比較、カラーミックスが、その処理に応じたラベルに変更されます。</li>
-                <li style="text-align: left;">ラベルサイズ: 選択しているフレームのラベルの大きさを変更します。<br>
-                    最小: 8に変更 / 半分: 36に変更 / 最大: 64に変更 / 数字: その数に変更</li>
-            </ul>
-
-            <div style="font-size: 21px; display: flex; align-items: center; justify-content: center; width: 80%; 
-             font-weight: bold; margin: 50px auto 0 auto">
-                <span
-                    style="flex-grow: 1; height: 1px; background-color: #f3f3f3; margin-right: 10px;"></span>最後のノードをアウトプットに接続
-                (ジオメトリノードエディターのみ)
-                <span style="flex-grow: 1; height: 1px; background-color: #f3f3f3; margin-left: 10px;"></span>
-            </div>
-            <ul style="margin: 16px auto; padding-left: 0; display: inline-block; line-height: 30px; max-width: 80%;">
-                <li style="text-align: left;">指定したノードをアウトプットに接続<br>
-                    ノードグループが大きくなっている場合、Shift Alt 左クリックで途中の状態を確認することがあるかと思います。<br>
-                    その状態から、最後のノードを再びアウトプットにつなげなおすのに役立ちます。</li>
-                <li style="text-align: left;">アクティブなノードを最終ノードに設定: アクティブなノードを、最後のノードとして設定します。</li>
-            </ul>
-
-            <div style="font-size: 21px; display: flex; align-items: center; justify-content: center; width: 80%; 
-             font-weight: bold; margin: 50px auto 0 auto">
-                <span style="flex-grow: 1; height: 1px; background-color: #f3f3f3; margin-right: 10px;"></span>ノードを検索
-                <span style="flex-grow: 1; height: 1px; background-color: #f3f3f3; margin-left: 10px;"></span>
-            </div>
-            <p style="margin: 16px auto; text-align: center; max-width: 80%;">ノードを検索:
-                名前と、つながっているアウトプットの名前から、ノードを検索します。<br>
-                グループインプットが複数ある場合、つながっているアウトプットの名前から、検索するのが役立ちます。</p>
-
-            <div style="font-size: 21px; display: flex; align-items: center; justify-content: center; width: 80%; 
-                font-weight: bold; margin: 50px auto 0 auto">
-                <span style="flex-grow: 1; height: 1px; background-color: #f3f3f3; margin-right: 10px;"></span>ズーム
-                <span style="flex-grow: 1; height: 1px; background-color: #f3f3f3; margin-left: 10px;"></span>
-            </div>
-            <p style="margin: 16px auto; text-align: center; max-width: 80%;">ズーム:
-                選択しているノードまたはフレームに対して、プリファレンスで設定されたレベルでズームします。<br>
-                Blender標準のピリオドキーでのズームは、ノードを一つだけ選択しているとズームしてくれないので、これが役立ちます。<br>
-                <span style="font-weight: bold;"> プリファレンスで設定した値に正確にズームするわけではないことに注意してください。</span>
-            </p>
-
-            <div style="font-size: 21px; display: flex; align-items: center; justify-content: center; width: 80%; 
-             font-weight: bold; margin: 50px auto 0 auto">
-                <span
-                    style="flex-grow: 1; height: 1px; background-color: #f3f3f3; margin-right: 10px;"></span>同タイプのノードに対する接続されていないソケットを隠す
-                <span style="flex-grow: 1; height: 1px; background-color: #f3f3f3; margin-left: 10px;"></span>
-            </div>
-            <p style="margin: 16px auto; text-align: center; max-width: 80%;">同タイプのノードに対する接続されていないソケットを隠す:
-                アクティブなノードと同じタイプのノードの、つながっていないソケットを隠します。<br>
-                複数のグループインプットがある場合に特に便利です。</p>
-            <br>
-            <!-- Selection Pie Menu-->
-            <h1 style="margin-top: 80px; font-size: xx-large; font-weight: bold; padding: 10px; text-align: center;">
-                <span
-                    style="display: inline-block; width: 90%; padding: 25px 20px; border-radius: 200px; 
-                             background: linear-gradient(to right,#168aad 0%, #1a759f 100%); text-align: center;">選択パイメニュー</span>
-            </h1>
-
-
-            <div style="margin: 16px auto; display: flex; justify-content: center; max-width: 80%;">
-                <img src="https://github.com/sum-bocfob/node-utilities/blob/main/Images/SelectPie_JP.png?raw=true"
-                    style="border-color: #818181; border-width: 1px; border-style: solid;">
-            </div>
-            <p style="margin: 16px auto; text-align: center; max-width: 80%;">
-                キーが押された時点でのマウスの位置を基準に、それぞれの方向にあるノードを選択します。<br>
-                "フレームも選択"をオンにすると、フレームも選択されるようになります。</p>
-            <br>
-
-
-            <!-- Others-->
-            <h1 style="margin-top: 80px; font-size: xx-large; font-weight: bold; padding: 10px; text-align: center;">
-                <span style="display: inline-block; width: 90%; padding: 25px 20px; border-radius: 200px; 
-                                background: linear-gradient(to right,#168aad 0%, #1a759f 100%); text-align: center;">
-                    その他
-                </span>
-            </h1>
-
-
-            <div style="margin: 16px auto; text-align: center; max-width: 80%;">
-                <ul
-                    style="margin-bottom: 50px; padding-left: 0; display: inline-block; line-height: 30px; max-width: 80%;">
-                    <li style="text-align: left;">ノードの幅を増減: Shift X、Shift Zキーで選択しているノードの幅を変更します。<br>
-                        ショートカットキーと増減の量は、プリファレンスで変更できます。</li>
-                    <li style="text-align: left;">ビューワーのオンオフ切り替え: Shift Eキーで、ビューワーのオンオフを切り替えます。<br>
-                        ビューワーが一つだけあるときのみ有効です。</li>
-                    <li style="text-align: left;">フレームから外して複製: Shift Ctrl Alt Dキーで、選択中のノードをフレームから外して複製します。</li>
-                </ul>
-            </div>
-        </div>
-
-
-
-        <!-- Preferences -->
-        <h2
-            style="font-size: xxx-large; padding: 30px 0; font-weight: bold; text-align: center; background: linear-gradient(to right, #FFA348, #EC6628); color: #363636;">
-            プリファレンス</h2>
-        <div style="margin: 16px auto; text-align: center; color: #f3f3f3; max-width: 80%;">
-            <p>ショートカットキーを変更できます。</p>
-            <div style="margin: 16px auto; display: flex; justify-content: center; max-width: 80%;">
-                <img src="https://github.com/sum-bocfob/node-utilities/blob/main/Images/Pref1_JP.png?raw=true"
-                    style="border-color: #818181; border-width: 1px; border-style: solid;">
-            </div>
-            <p style="margin-bottom: -12px;">以下を変更できます</p>
-            <ul style="padding-left: 0; display: inline-block; line-height: 30px;">
-                <li style="text-align: left;">変更幅: ノードの幅を増減する量。</li>
-                <li style="text-align: left;">フレームも選択: 選択パイメニューでフレームも選択するかどうか。</li>
-                <li style="text-align: left;">お気に入りの色: "お気に入りの色に設定"で使用する色。</li>
-                <li style="text-align: left;">自動ズーム: ノードを検索した後に、自動でそのノードにズームするか。</li>
-                <li style="text-align: left;">ズームレベル: 値が大きいほどズームします。</li>
-            </ul>
-
-            <div style="margin: 16px auto; display: flex; justify-content: center; max-width: 80%;">
-                <img src="https://github.com/sum-bocfob/node-utilities/blob/main/Images/Pref2_JP.png?raw=true"
-                    style="border-color: #818181; border-width: 1px; border-style: solid;">
-            </div>
-        </div>
-
-
-        <!-- installation -->
-        <h2
-            style="font-size: xxx-large; padding: 30px 0; font-weight: bold; text-align: center; background: linear-gradient(to right, #FFA348, #EC6628); color: #363636;">
-            インストール方法</h2>
-
-        <div style="text-align: center; color:#f3f3f3; max-width: 80% ; margin: 20px auto 0 auto;">
-            Blender4.2以上
-        </div>
-        <div style="margin: 0px auto; text-align: center; color: #f3f3f3; max-width: 80%;">
-            <ul style="padding-left: 0; display: inline-block;">
-                <li style="text-align: left;">zipファイルをダウンロード(解凍する必要はありません)</li>
-                <li style="text-align: left;">編集→プリファレンス→”アドオン”または”エクステンションを入手”タブ</li>
-                <li style="text-align: left;">右上の下向き矢印から、ディスクからインストールをクリック</li>
-                <li style="text-align: left;">ダウンロードしたzipファイルを選択</li>
-            </ul>
-        </div>
-
-        <div style="text-align: center; color:#f3f3f3; max-width: 80% ; margin: 20px auto 0 auto;">
-            Blender4.1以下
-        </div>
-        <div style="margin: 0 auto 50px auto; text-align: center; color: #f3f3f3; max-width: 80%;">
-            <ul style="padding-left: 0; display: inline-block;">
-                <li style="text-align: left;">zipファイルをダウンロード(解凍する必要はありません)</li>
-                <li style="text-align: left;">編集→プリファレンス→アドオン</li>
-                <li style="text-align: left;">インストールをクリックし、zipファイルを選択</li>
-                <li style="text-align: left;"> チェックボックスにチェックを入れる</li>
-            </ul>
-        </div>
-
-
-        <!-- Update -->
-        <h2
-            style="font-size: xxx-large; padding: 30px 0; font-weight: bold; text-align: center; background: linear-gradient(to right, #FFA348, #EC6628); color: #363636;">
-            アップデート履歴</h2>
-
-        <div
-            style="text-align: center; color: #f3f3f3; margin: auto; margin-bottom: 30px; max-width: 80%; display: block;">
-            <table style="margin: auto; text-align: left; border-collapse: collapse;">
-                <tbody>
-                    <tr>
-                        <td style="padding-right: 1rem; vertical-align: top;">
-                            <div style="display: flex; align-items: baseline;">
-                                <span>2.0.1</span><span style="margin-left: 0.5rem;"></span>
-                            </div>
-                        </td>
-                        <td>フレームから外して複製は複数のノードに対して有効になりました</td>
-                    </tr>
-                    <tr>
-                        <td style="padding-right: 1rem; vertical-align: top;">
-                            <div style="display: flex; align-items: baseline;">
-                                <span>2.0.0</span><span style="margin-left: 0.5rem;"></span>
-                            </div>
-                        </td>
-                        <td>UIを変更しました<br>
-                            X軸方向に整列、Y軸方向に整列の向きが変わりました<br>
-                            ノードユーティリティパイメニューのデフォルトのショートカットキーがDになりました。
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="padding-right: 1rem; vertical-align: top;">
-                            <div style="display: flex; align-items: baseline;">
-                                <span>1.6.2</span><span style="margin-left: 0.5rem;"></span>
-                            </div>
-                        </td>
-                        <td>細かいバグ修正</td>
-                    </tr>
-                    <tr>
-                        <td style="padding-right: 1rem; vertical-align: top;">
-                            <div style="display: flex; align-items: baseline;">
-                                <span>1.6.1</span><span style="margin-left: 0.5rem;"></span>
-                            </div>
-                        </td>
-                        <td>ビューワーのオンオフ機能を追加<br>
-                            ノードの幅を変更機能が複数のノードに対して有効になりました
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="padding-right: 1rem; vertical-align: top;">
-                            <div style="display: flex; align-items: baseline;">
-                                <span>1.5.1</span><span style="margin-left: 0.5rem;"></span>
-                            </div>
-                        </td>
-                        <td>ノード検索が、ノードグループに対して有効になりました</td>
-                    </tr>
-                    <tr>
-                        <td style="padding-right: 1rem; vertical-align: top;">
-                            <div style="display: flex; align-items: baseline;">
-                                <span>1.5.0</span><span style="margin-left: 0.5rem;"></span>
-                            </div>
-                        </td>
-                        <td>バグ修正<br>
-                            ノード検索機能を追加<br>
-                            最後のノードをアウトプットに接続機能を追加
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="padding-right: 1rem; vertical-align: top;">
-                            <div style="display: flex; align-items: baseline;">
-                                <span>1.4.3</span><span style="margin-left: 0.5rem;"></span>
-                            </div>
-                        </td>
-                        <td>選択パイメニューがノードエディターでのみ有効になりました</td>
-                    </tr>
-                    <tr>
-                        <td style="padding-right: 1rem; vertical-align: top;">
-                            <div style="display: flex; align-items: baseline;">
-                                <span>1.4.2</span><span style="margin-left: 0.5rem;"></span>
-                            </div>
-                        </td>
-                        <td>色変更のバグ修正</td>
-                    </tr>
-                    <tr>
-                        <td style="padding-right: 1rem; vertical-align: top;">
-                            <div style="display: flex; align-items: baseline;">
-                                <span>1.4.1</span><span style="margin-left: 0.5rem;"></span>
-                            </div>
-                        </td>
-                        <td>お気に入りの色に設定とカラーインプットが複数のノードに対して有効になりました<br>
-                            細かいバグ修正
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-
-
-        <div style="background-color: #f3f3f3; padding-bottom: 20px;">
-            <p
-                style="font-size: large; font-weight: bold; text-align: center; max-width: 80%; padding-top: 20px; margin: auto; color: #2c2c2c;">
-                sum studio</p>
-            <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
-                <a href="https://twitter.com/boc_fob" target="_blank" rel="noopener noreferrer"
+            <div
+                style="display: flex; justify-content: center; align-items: center; background: #f3f3f3; padding: 10px 0;">
+                <a href="https://blendermarket.com/products/node-utilities" target="_blank" rel="noopener noreferrer"
+                    style="margin-right: 100px;">
+                    <img src="https://github.com/sum-bocfob/publicImages/blob/main/Blender%20Market%20logo.png?raw=true"
+                        alt="Node Utilities Blender Market" style="width: 200px; height: auto; display: block;">
+                </a>
+                <a href="https://sumsum.booth.pm/items/6560406" target="_blank" rel="noopener noreferrer"
                     style="margin-right: 20px;">
-                    <img src="https://assets.superhivemarket.com/cache/591717d03f1cdd6d2bbb052a52cb8cfa.png"
-                        alt="sum studio x" style="width: 80px; height: auto;">
-                </a>
-                <a href="https://www.youtube.com/channel/UCzFITeATkQiVA_wpuqnhmQw" target="_blank"
-                    rel="noopener noreferrer" style="margin-right: 20px;">
-                    <img src="https://assets.superhivemarket.com/cache/4f38b7be60e6f88a8900e4d39fc52189.png"
-                        alt="sum studio YouTube" style="width: 80px; height: auto;">
-                </a>
-                <a href="https://blendermarket.com/creators/sumstudio" target="_blank" rel="noopener noreferrer"
-                    style="margin-right: 20px;">
-                    <img src="https://assets.superhivemarket.com/cache/3af0579d882a98a16ae560ab552e65b9.svg"
-                        alt="sum studio Blender market" style="width: 80px; height: auto;">
-                </a>
-                <a href="https://sumsum.booth.pm/" target="_blank" rel="noopener noreferrer">
-                    <img src="https://assets.superhivemarket.com/cache/935b7da1cd8fae48209d8df1a28e1313.png"
-                        alt="sum studio BOOTH" style="width: 80px; height: auto;">
+                    <img src="https://github.com/sum-bocfob/publicImages/blob/main/BOOTH_Logo.png?raw=true"
+                        alt="Node Utilities BOOTH" style="width: 200px; height: auto; display: block;">
                 </a>
             </div>
-        </div>
 
-        <br>
-        <br>
-    </div>
+            <div style="margin-top: 40px; text-align: center; max-width: 80% ; margin-left: auto; margin-right: auto;">
+                <h3 style="font-weight: bold; color: #f3f3f3;">スカルプト, テクスチャペイント, ドロー（グリースペンシル）のブラシを簡単に
+                    選択/保存できるようにするアドオンです。
+                    </h3>
+                <h3 style="font-weight: bold; color: #f3f3f3;">異なる.blendファイル間でも、保存したメニューを使用できます。</h3>
+                <h4 style="font-weight: bold; color: #f3f3f3;">バージョン1.6.1以上は、Blender3.4以上対応です。</h4>
+                <div style="text-align: center; padding-top: 10px;"><img
+                    src="https://assets.superhivemarket.com/cache/4a50389b7c448409c111220849421aff.png"
+                    style="max-width: 80%;">
+            </div>
+                <br>
+                <h5 style="color: #f3f3f3;">Sculpt Brush Toolsetの機能が改良されたため、製品名がQuick Brush Selectorに変更されました。</h5>
+                <iframe width="80%" height=auto src="https://www.youtube.com/embed/CgvLfXqV9BY" title="Sculpt Brush Toolset is now compatible with Blender4.3【Blender Addon】" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h5 style="color: #bfd7ff;">Texture Paint mode and Grease Pencil Draw mode functions work with
+                    Blender 4.3 and later.<br>
+                    For Blender 4.2 and earlier versions, please use sculpt_brush_toolset_1.2.2.zip, which only works
+                    for sculpt
+                    brushes.</h5>
+                <br>
+
+            </div>
+            
+            <br>
+            <div style="text-align: center;">
+                <a href="https://docs.google.com/document/d/1PUs9_LNEIe7vDBF3TnUcKeCW8cSJvN1ra4wH1fEy2OE/edit?usp=sharing"
+                    target="_blank" rel="noopener noreferrer">日本語のドキュメント</a>
+                <br>
+                <br>
+                <a href="https://drive.google.com/file/d/1C8C84XPQTGpQlG6Ztb51xji7_7YhULyF/view?usp=sharing"
+                    target="_blank" rel="noopener noreferrer">Document for version1.2.2 or lower</a>
+                <br>
+                <br>
+                <a href="https://docs.google.com/document/d/101SBc5ROnCBRgThb0fV4vPkPmA-QsCROi50_VuFS3rs/edit?usp=sharing"
+                    target="_blank" rel="noopener noreferrer">バージョン1.2.2以下の日本語のドキュメント</a>
+            </div>
+            <br>
+            <br>
+
+            <!-- Features -->
+            <h2
+                style="font-size: xxx-large; padding: 30px 0; font-weight: bold; text-align: center; background: linear-gradient(to right, #8ec5fc, #a1acff, #e0c3fc); color: #363636;">
+                Features</h2>
+
+
+            <h2
+                style="font-size: x-large ;font-weight: bold; margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">
+                <ul style="padding-left: 0; display: inline-block; line-height: 30px;">
+                    <li style="text-align: left; margin: 10px 0;">Easily activate brushes with your preferred settings
+                    </li>
+                    <li style="text-align: left; margin: 10px 0;">Save multiple toolset(collection of brushes)<br>
+                    <li style="text-align: left; margin: 10px 0;">Easy-to-operate interface.<br>
+                    <li style="text-align: left; margin: 10px 0;">Customizable UI parameters
+                </ul>
+            </h2>
+
+            <!-- how to use -->
+            <h2
+                style="font-size: xxx-large; padding: 30px 0; font-weight: bold; text-align: center; background: linear-gradient(to right, #8ec5fc, #a1acff, #e0c3fc); color: #363636;">
+                How to use</h2>
+
+
+            <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">In Sculpt mode, Texture
+                Paint mode
+                or Draw Grease Pencil mode, select QBS in N panel.</p>
+            <div style="margin: 16px auto; display: flex; justify-content: center; max-width: 80%;">
+                <img src="https://assets.superhivemarket.com/cache/dae71664186feb38746a7d76ccd758f3.png"
+                    style="border-color: #818181; border-width: 1px; border-style: solid;">
+            </div>
+
+            <div style="margin: 16px auto; text-align: center; color: #f3f3f3;">
+
+                <!-- Add Toolset / Brush -->
+                <h1
+                    style="margin-top: 80px; font-size: xx-large; font-weight: bold; padding: 10px; text-align: center;">
+                    <span
+                        style="display: inline-block; width: 90%; padding: 25px 20px; border-radius:  200px; color: #2c2c2c;
+                             background: linear-gradient(to right,#fff75e 0%,#ffd53e 50%, #fdb833 100%); text-align: center;">Add
+                        Toolset / Brush</span>
+                </h1>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">"Toolset" is
+                    collection of
+                    brushes.<br>
+                    You can have multiple Toolsets and add them by clicking "Add Toolset".</p>
+                <div style="margin: 16px auto; display: flex; justify-content: center; max-width: 80%;">
+                    <img src="https://assets.superhivemarket.com/cache/8788f3157bddba29d3eee601417f355c.gif"
+                        style="border-color: #818181; border-width: 1px; border-style: solid;">
+                </div>
+                <br>
+                <br>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">You can add a brush to
+                    the
+                    active Toolset or new Toolset by right-clicking on the brush in the AssetShelf of the 3DViewport and
+                    selecting "Add to active toolset" or "Add to New Toolset".<br>
+                    <br>Each mode (Sculpt, Texture Paint, Draw (Grease Pencil)) adds a brush to each library.
+                </p>
+                <div style="margin: 16px auto; display: flex; justify-content: center; max-width: 80%;">
+                    <img src="https://assets.superhivemarket.com/cache/c95be5981116bfcf482357188a8e3501.gif"
+                        style="border-color: #818181; border-width: 1px; border-style: solid;">
+                </div>
+                <br>
+                <br>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;"><span
+                        style="color: #FFA348;">You can also add tool</span> like Box Mask, Lasso Hide, Cloth Filter,
+                    Move, etc,
+                    in Sculpt and Box, Trim, Eyedropper, etc, in Draw(Grease Pencil).<br>
+                    Firstly make the tool you want to add to toolset active, then right-clicking on tool shelf and click
+                    "Add
+                    Active Tool to Active Toolset / New Toolset". </p>
+                <div style="margin: 16px auto; display: flex; justify-content: center; max-width: 80%;">
+                    <img src="https://assets.superhivemarket.com/cache/88d2625476792af8eddd61879afbd5be.gif"
+                        style="border-color: #818181; border-width: 1px; border-style: solid;">
+                </div>
+                <br>
+                <br>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">From Asset Browser,
+                    you can
+                    add brush to toolset of each mode.<br>
+                    And also, <span style="color: #FFA348;">you can add multiple brushes.</span></p>
+                <div style="margin: 16px auto; display: flex; justify-content: center; max-width: 80%;">
+                    <img src="https://assets.superhivemarket.com/cache/e0667a330e2428a26e8b28f498d2716c.gif"
+                        style="border-color: #818181; border-width: 1px; border-style: solid;">
+                </div>
+
+
+
+                <!-- Select Toolset / Brush -->
+                <h1
+                    style="margin-top: 80px; font-size: xx-large; font-weight: bold; padding: 10px; text-align: center;">
+                    <span
+                        style="display: inline-block; width: 90%; padding: 25px 20px; border-radius:  200px; color: #2c2c2c;
+                             background: linear-gradient(to right,#fff75e 0%,#ffd53e 50%, #fdb833 100%); text-align: center;">Select
+                        Toolset / Brush</span>
+                </h1>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">After adding brush to
+                    Toolset,
+                    brush selector is shown by <span style="color: #FFA348;">pressing Y key</span>(default) on
+                    3DView.<br>
+                    <br>Activate the brush by <span style="color: #FFA348;">clicking on the image of the brush</span>
+                    you want
+                    to select.
+                </p>
+                <div style="margin: 16px auto; display: flex; justify-content: center; max-width: 80%;">
+                    <img src="https://assets.superhivemarket.com/cache/b7feb79c3649481621d3a86b8e210614.gif"
+                        style="border-color: #818181; border-width: 1px; border-style: solid;">
+                </div>
+                <br>
+                <br>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">When you have multiple
+                    toolsets, you can change active toolset by <span style="color: #FFA348;">pressing T or U
+                        key</span>(default)
+                    after open brush selector.<br>
+                    <br>And also chnage by clicking diamond shape above brush selector.
+                </p>
+                <div style="margin: 16px auto; display: flex; justify-content: center; max-width: 80%;">
+                    <img src="https://assets.superhivemarket.com/cache/480d458a0cfe57494f91cd3b8d260ff1.gif"
+                        style="border-color: #818181; border-width: 1px; border-style: solid;">
+                </div>
+                <br>
+                <br>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">You can close it by
+                    pressing
+                    the same key you used to open it or by moving mouse far away.</p>
+                <div style="margin: 16px auto; display: flex; justify-content: center; max-width: 80%;">
+                    <img src="https://assets.superhivemarket.com/cache/4cb6029ab0b5a2fb7c0216496ab0d3db.gif"
+                        style="border-color: #818181; border-width: 1px; border-style: solid;">
+                </div>
+
+
+                <!-- Import / Export -->
+                <h1
+                    style="margin-top: 80px; font-size: xx-large; font-weight: bold; padding: 10px; text-align: center;">
+                    <span
+                        style="display: inline-block; width: 90%; padding: 25px 20px; border-radius:  200px; color: #2c2c2c;
+                             background: linear-gradient(to right,#fff75e 0%,#ffd53e 50%, #fdb833 100%); text-align: center;">Import
+                        /
+                        Export</span>
+                </h1>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">In import / export
+                    menu, there
+                    are 3 ways to import(save) / export(load).</p>
+                <div style="margin: 16px auto; display: flex; justify-content: center; max-width: 80%;">
+                    <img src="https://assets.superhivemarket.com/cache/2a671e6c4f2ce162c49d44e3261ca4e8.png"
+                        style="border-color: #818181; border-width: 1px; border-style: solid;">
+                </div>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;"><span
+                        style="font-weight: bold;">Global Library</span> can be saved / loaded between different files
+                    only
+                    between the same version of blender.</p>
+                <p><span style="font-weight: bold;">Only one global library is saved</span> for each blender version.
+                </p>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">Note that "Load Global
+                    Library" is overwrite current toolset.</p>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">This is easy and
+                    quicky one.
+                </p>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">The Global Library is
+                    saved
+                    separately for each mode.</p>
+
+                <hr
+                    style="border: none; height: 3px; text-align: center; margin: 20px auto; background-color: #f3f3f3; width: 80%; border-radius: 5px;">
+
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;"><span
+                        style="font-weight: bold;">Export / Import Toolset</span> is export active toolset to text file
+                    or
+                    import text file into current file.</p>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">This is possible
+                    between
+                    different versions of blender.</p>
+
+
+                <hr
+                    style="border: none; height: 3px; text-align: center; margin: 20px auto; background-color: #f3f3f3; width: 80%; border-radius: 5px;">
+
+
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;"><span
+                        style="font-weight: bold;">Export / Import Library</span> is export all toolset and brushes in
+                    it to
+                    text file or import text file into current file.</p>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">This is possible
+                    between
+                    different versions of blender.</p>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">Note that "Import
+                    Library" is
+                    overwrite current toolset.</p>
+
+
+                <!-- Settings -->
+                <h1
+                    style="margin-top: 80px; font-size: xx-large; font-weight: bold; padding: 10px; text-align: center;">
+                    <span
+                        style="display: inline-block; width: 90%; padding: 25px 20px; border-radius:  200px; color: #2c2c2c;
+                             background: linear-gradient(to right,#fff75e 0%,#ffd53e 50%, #fdb833 100%); text-align: center;">Settings</span>
+                </h1>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">In Settings, there are
+                    some
+                    settings you can tweak.</p>
+                <div style="margin: 16px auto; display: flex; justify-content: center; max-width: 80%;">
+                    <img src="https://assets.superhivemarket.com/cache/9e2b72fb79f30a50d8dcb92755d634ee.png"
+                        style="border-color: #818181; border-width: 1px; border-style: solid;">
+                </div>
+
+                <br>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">If you turn on "Use
+                    Simple
+                    Panel", brush selector will turn into simple panel with only its name.</p>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">Simple panel displays
+                    brushes
+                    only in active toolset.(Can't change toolset with shortcut key.)</p>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">The brushes are
+                    ordered from
+                    top left to bottom.</p>
+                <div style="margin: 16px auto; display: flex; justify-content: center; max-width: 80%;">
+                    <img src="https://assets.superhivemarket.com/cache/ce1cac64eba0a2268e5cc86f5864ccff.png"
+                        style="border-color: #818181; border-width: 1px; border-style: solid;">
+                </div>
+
+                <br>
+                <br>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">Icons for the brush
+                    selector
+                    are generated automatically, but if they are deleted for some reason, you can regenerate them by
+                    clicking
+                    "Regenerate Icon Images.".</p>
+
+                <br>
+                <br>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">In Toolset Settings,
+                    you can
+                    change Toolset name or order.</p>
+                <div style="margin: 16px auto; display: flex; justify-content: center; max-width: 80%;">
+                    <img src="https://assets.superhivemarket.com/cache/b9fc8c800c82265b061c1ee33d6ac532.png"
+                        style="border-color: #818181; border-width: 1px; border-style: solid;">
+                </div>
+                <br>
+                <br>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">There are some
+                    settings in
+                    Preferences > Add-ons > Quick Brush Selector</p>
+                <div style="margin: 16px auto; display: flex; justify-content: center; max-width: 80%;">
+                    <img src="https://assets.superhivemarket.com/cache/22a7cc8613f296b850fb7def07996013.png"
+                        style="border-color: #818181; border-width: 1px; border-style: solid;">
+                </div>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">"Auto Load Global
+                    Library"
+                    automatically loads the Global Library in new Blender file.</p>
+
+
+                <!-- installation -->
+                <h2
+                    style="font-size: xxx-large; padding: 30px 0; font-weight: bold; text-align: center; background: linear-gradient(to right, #8ec5fc, #a1acff, #e0c3fc); color: #363636;">
+                    Installation</h2>
+
+                <div style="text-align: center; color:#f3f3f3; max-width: 80% ; margin: 20px auto 0 auto;">
+                    For Blender4.2 or higher
+                </div>
+                <div style="margin: 0px auto; text-align: center; color: #f3f3f3; max-width: 80%;">
+                    <ul style="padding-left: 0; display: inline-block;">
+                        <li style="text-align: left;">download zip file, do not unzip it.</li>
+                        <li style="text-align: left;">go to Blender's user preference,open the "Add-ons" or "Get
+                            Extensions" tab
+                        </li>
+                        <li style="text-align: left;">click "Install from Disk" from downward arrow at right up and
+                            select the
+                            zip
+                            file.</li>
+                    </ul>
+                </div>
+
+                <div style="text-align: center; color:#f3f3f3; max-width: 80% ; margin: 20px auto 0 auto;">
+                    For Blender4.1 or lower
+                </div>
+                <div style="margin: 0 auto 50px auto; text-align: center; color: #f3f3f3; max-width: 80%;">
+                    <ul style="padding-left: 0; display: inline-block;">
+                        <li style="text-align: left;">download zip file, do not unzip it.</li>
+                        <li style="text-align: left;">go to Blender's user preference,open the Add-ons tab</li>
+                        <li style="text-align: left;">click Install and select the zip file.</li>
+                        <li style="text-align: left;">check the box next to its name to enable it.</li>
+                    </ul>
+                </div>
+
+
+
+                <!-- Update -->
+                <h2
+                    style="font-size: xxx-large; padding: 30px 0; font-weight: bold; text-align: center; background: linear-gradient(to right, #8ec5fc, #a1acff, #e0c3fc); color: #363636;">
+                    Update</h2>
+                <p style="margin: 30px auto; text-align: center; color: #f3f3f3; max-width: 80%;">Version 2.1.0 works
+                    with
+                    Blender4.3 and Blender4.4.0a.<br>
+                    Version 2.1.0 cannot load libraries and other files created in earlier versions.</p>
+
+                <div
+                    style="text-align: center; color: #f3f3f3; margin: auto; margin-bottom: 30px; max-width: 80%; display: block;">
+                    <table style="margin: auto; text-align: left; border-collapse: collapse;">
+                        <tbody>
+                            <tr>
+                                <td style="padding-right: 1rem; vertical-align: top;">
+                                    <div style="display: flex; align-items: baseline;">
+                                        <span>2.1.0</span><span style="margin-left: 0.5rem;"></span>
+                                    </div>
+                                </td>
+                                <td>Compatible with Texture Paint mode and Grease Paint Draw mode.<br>
+                                    The product name has changed from Sculpt Brush Toolset to Quick Brush Selector.</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-right: 1rem; vertical-align: top;">
+                                    <div style="display: flex; align-items: baseline;">
+                                        <span>2.0.0</span><span style="margin-left: 0.5rem;"></span>
+                                    </div>
+                                </td>
+                                <td>Compatible with Blender 4.3.<br>
+                                    Added functions below.<br>
+                                    ・Adding brush(es) from Asset Browser.<br>
+                                    ・Adding brush to new toolset.<br>
+                                    ・Changing menu color.<br>
+                                    ・Changing toolset name.<br>
+                                    ・Changing column count for simple panel.<br>
+                                    ・Compatible with Japanese.<br></td>
+                            </tr>
+                            <tr>
+                                <td style="padding-right: 1rem; vertical-align: top;">
+                                    <div style="display: flex; align-items: baseline;">
+                                        <span>1.2.2</span><span style="margin-left: 0.5rem;"></span>
+                                    </div>
+                                </td>
+                                <td>Added simple brush panel function.</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-right: 1rem; vertical-align: top;">
+                                    <div style="display: flex; align-items: baseline;">
+                                        <span>1.2.1</span><span style="margin-left: 0.5rem;"></span>
+                                    </div>
+                                </td>
+                                <td>Fixed an issue where some brushes could not be registered in Blender 4.2.</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-right: 1rem; vertical-align: top;">
+                                    <div style="display: flex; align-items: baseline;">
+                                        <span>1.2.0</span><span style="margin-left: 0.5rem;"></span>
+                                    </div>
+                                </td>
+                                <td>Compatible with Blender 4.0.</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-right: 1rem; vertical-align: top;">
+                                    <div style="display: flex; align-items: baseline;">
+                                        <span>1.1.1</span><span style="margin-left: 0.5rem;"></span>
+                                    </div>
+                                </td>
+                                <td>Fixed an issue where some brushes could not be selected when changing the active
+                                    toolset.</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-right: 1rem; vertical-align: top;">
+                                    <div style="display: flex; align-items: baseline;">
+                                        <span>1.1.0</span><span style="margin-left: 0.5rem;"></span>
+                                    </div>
+                                </td>
+                                <td>It is now possible to close selector by pressing the same key as when it was opened
+                                    or by moving mouse far away.<br>
+                                    Shortcut keys can now be changed from preferences.<br>
+                                    Added backup function for future update.</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-right: 1rem; vertical-align: top;">
+                                    <div style="display: flex; align-items: baseline;">
+                                        <span>1.0.0</span><span style="margin-left: 0.5rem;"></span>
+                                    </div>
+                                </td>
+                                <td>First release</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+
+                <div style="background-color: #f3f3f3; padding-bottom: 20px;">
+                    <p
+                        style="font-size: large; font-weight: bold; text-align: center; max-width: 80%; padding-top: 20px; margin: auto; color: #2c2c2c;">
+                        sum studio</p>
+                    <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+                        <a href="https://twitter.com/boc_fob" target="_blank" rel="noopener noreferrer"
+                            style="margin-right: 20px;">
+                            <img src="https://assets.superhivemarket.com/cache/591717d03f1cdd6d2bbb052a52cb8cfa.png"
+                                alt="sum studio x" style="width: 80px; height: auto;">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCzFITeATkQiVA_wpuqnhmQw" target="_blank"
+                            rel="noopener noreferrer" style="margin-right: 20px;">
+                            <img src="https://assets.superhivemarket.com/cache/4f38b7be60e6f88a8900e4d39fc52189.png"
+                                alt="sum studio YouTube" style="width: 80px; height: auto;">
+                        </a>
+                        <a href="https://blendermarket.com/creators/sumstudio" target="_blank" rel="noopener noreferrer"
+                            style="margin-right: 20px;">
+                            <img src="https://assets.superhivemarket.com/cache/3af0579d882a98a16ae560ab552e65b9.svg"
+                                alt="sum studio Blender market" style="width: 80px; height: auto;">
+                        </a>
+                        <a href="https://sumsum.booth.pm/" target="_blank" rel="noopener noreferrer">
+                            <img src="https://assets.superhivemarket.com/cache/935b7da1cd8fae48209d8df1a28e1313.png"
+                                alt="sum studio BOOTH" style="width: 80px; height: auto;">
+                        </a>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+            </div>
 </body>
 
 </html>
