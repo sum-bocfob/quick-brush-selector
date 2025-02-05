@@ -13,10 +13,10 @@ li {
 
 /* レイアウト */
 body {
-    font-family: "Montserrat", serif;
+    font-family: "Noto Sans JP", serif;
     font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
-    line-height: 1.6;
 }
 
 /* ヘッダー */
@@ -54,11 +54,12 @@ nav ul li a {
     margin: 100px 0 20px 0;
     padding: 20px;
     background: #3d3d3d;
+    overflow-x: hidden; /* 横スクロールを防ぐ */
 }
 
 /* メインコンテンツ */
 main {
-    flex: 3;
+    flex-grow: 1;
     background: #2c2c2c;
     /* padding: 25px; */
     border-radius: 5px;
@@ -72,6 +73,10 @@ aside {
     padding: 20px;
     margin-left: 20px;
     border-radius: 5px;
+    width: 25%;
+    /* 常に25%を維持 */
+    min-width: 200px;
+    /* 最小幅を設定して、極端に小さくならないように */
 }
 
 /* フッター */
