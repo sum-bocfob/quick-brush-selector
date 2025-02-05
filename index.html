@@ -341,5 +341,24 @@
                 </a>
             </div>
         </footer>
+
+        <script>
+            function adjustContainerMargin() {
+                // ヘッダーの高さを取得
+                const header = document.querySelector("header");
+                const container = document.querySelector(".container");
+
+                if (header && container) {
+                    const headerHeight = header.offsetHeight; // ヘッダーの高さを取得
+                    container.style.marginTop = headerHeight + "px"; // 取得した高さを適用
+                }
+            }
+
+            // 初回実行
+            adjustContainerMargin();
+
+            // 画面サイズが変更されたときに再計算
+            window.addEventListener("resize", adjustContainerMargin);
+        </script>
     </body>
 </html>
