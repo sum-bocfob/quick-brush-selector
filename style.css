@@ -27,7 +27,7 @@ header {
     text-align: center;
     position: fixed;
     width: 100%;
-    height: fit-content;
+    /* height: fit-content; */
     top: 0;
     left: 0;
     z-index: 1000;
@@ -52,9 +52,8 @@ nav ul li a {
 /* メインコンテンツとサイドバーのコンテナ */
 .container {
     display: flex;
-    /* margin-topにheaderの高さ+の値を指定 */
-    margin:60px 0 20px 0;
-    /* padding: 20px; */
+    /* Scriptでmargin-topにheaderの高さを指定 */
+    padding: 30px 30px;
     background: #3d3d3d;
 }
 
@@ -63,7 +62,7 @@ main {
     flex-grow: 1;
     background: #2c2c2c;
     /* padding: 25px; */
-    border-radius: 5px;
+    border-radius: 15px;
     color: #f3f3f3;
 }
 
@@ -72,9 +71,10 @@ aside {
     background: #ddd;
     padding: 20px;
     margin-left: 20px;
-    border-radius: 5px;
-    width: 25%;
+    border-radius: 15px;
+    width: 1000px;
     /* 常に25%を維持 */
+    max-width: 50%;
     min-width: 200px;
     /* 最小幅を設定して、極端に小さくならないように */
 }
@@ -94,6 +94,7 @@ footer {
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
+    border-radius: 15px 15px 0 0;
 }
 
 /* 見出し */
