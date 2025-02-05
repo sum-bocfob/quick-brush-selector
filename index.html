@@ -13,17 +13,23 @@
     <body>
         <!-- ヘッダー -->
         <header>
-            <h1>sum studio</h1>
+            <a class="headerMyName" href="#">sum studio</a>
             <nav>
                 <ul>
                     <li>
                         <a href="#">ホーム</a>
                     </li>
+                    <div class="separator"></div>
                     <li>
-                        <a href="#">ブログ</a>
+                        <a href="#">Blenderアドオン</a>
                     </li>
+                    <div class="separator"></div>
                     <li>
-                        <a href="#">お問い合わせ</a>
+                        <a href="#">チュートリアル</a>
+                    </li>
+                    <div class="separator"></div>
+                    <li>
+                        <a href="#">3Dモデル</a>
                     </li>
                 </ul>
             </nav>
@@ -35,7 +41,7 @@
                 <!-- タイトル -->
                 <h1 class="headline1 fontSize1 title">Quick Brush Selector</h1>
 
-                <div class="imgContainer" style="background: #f3f3f3; padding: 10px 0">
+                <div class="imgContainer" style="background: #efefef; padding: 10px 0">
                     <a href="https://blendermarket.com/products/sculpt-brush-toolset" target="_blank" rel="noopener noreferrer" style="margin-right: 100px">
                         <img src="https://github.com/sum-bocfob/publicImages/blob/main/Blender%20Market%20logo.png?raw=true" alt="Quick Brush Selector Blender Market" style="width: 200px; height: auto; display: block" />
                     </a>
@@ -309,18 +315,20 @@
             </main>
 
             <aside>
-                <h3>サイドバー</h3>
-                <ul>
-                    <li>
-                        <a href="#">カテゴリー1</a>
-                    </li>
-                    <li>
-                        <a href="#">カテゴリー2</a>
-                    </li>
-                    <li>
-                        <a href="#">カテゴリー3</a>
-                    </li>
-                </ul>
+                <h2>人気のBlenderアドオン</h2>
+                <iframe
+                    id="videoIframe"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/h7rYgz2HntE?si=uDidgrN98elI8vYM"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                ></iframe>
+
+                <h2>人気のチュートリアル</h2>
             </aside>
         </div>
 
@@ -328,13 +336,13 @@
         <footer>
             <p>sum studio</p>
             <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px">
-                <a href="https://twitter.com/boc_fob" target="_blank" rel="noopener noreferrer" style="margin-right: 20px">
+                <a href="https://twitter.com/boc_fob" target="_blank" rel="noopener noreferrer" style="margin-right: 50px">
                     <img src="https://assets.superhivemarket.com/cache/591717d03f1cdd6d2bbb052a52cb8cfa.png" alt="sum studio x" style="width: 80px; height: auto" />
                 </a>
-                <a href="https://www.youtube.com/channel/UCzFITeATkQiVA_wpuqnhmQw" target="_blank" rel="noopener noreferrer" style="margin-right: 20px">
+                <a href="https://www.youtube.com/channel/UCzFITeATkQiVA_wpuqnhmQw" target="_blank" rel="noopener noreferrer" style="margin-right: 50px">
                     <img src="https://assets.superhivemarket.com/cache/4f38b7be60e6f88a8900e4d39fc52189.png" alt="sum studio YouTube" style="width: 80px; height: auto" />
                 </a>
-                <a href="https://blendermarket.com/creators/sumstudio" target="_blank" rel="noopener noreferrer" style="margin-right: 20px">
+                <a href="https://blendermarket.com/creators/sumstudio" target="_blank" rel="noopener noreferrer" style="margin-right: 50px">
                     <img src="https://assets.superhivemarket.com/cache/3af0579d882a98a16ae560ab552e65b9.svg" alt="sum studio Blender market" style="width: 80px; height: auto" />
                 </a>
                 <a href="https://sumsum.booth.pm/" target="_blank" rel="noopener noreferrer">
@@ -342,5 +350,6 @@
                 </a>
             </div>
         </footer>
+        <script src="./loadRandomUrl.js"></script>
     </body>
 </html>
