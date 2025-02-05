@@ -1,0 +1,157 @@
+/* 全体のリセット */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* レイアウト */
+body {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 1.6;
+}
+
+/* ヘッダー */
+header {
+    background: #4D5D82;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* ナビゲーション */
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* メインコンテンツとサイドバーのコンテナ */
+.container {
+    display: flex;
+    margin: 100px 0 20px 0;
+    padding: 20px;
+    background: #3d3d3d;
+}
+
+/* メインコンテンツ */
+main {
+    flex: 3;
+    background: #2c2c2c;
+    /* padding: 25px; */
+    border-radius: 5px;
+    color: #f3f3f3;
+}
+
+/* サイドバー */
+aside {
+    flex: 1;
+    background: #ddd;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+/* フッター */
+footer {
+    color: #3d3d3d;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* 見出し */
+.headline1 {
+    margin: 0;
+    padding: 30px;
+    /* 上下左右のバランスを調整 */
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(to right, #8ec5fc, #a1acff, #e0c3fc);
+    color: #363636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headline2 {
+    display: inline-block;
+    width: 90%;
+    padding: 25px 20px;
+    border-radius: 200px;
+    color: #2c2c2c;
+    background: linear-gradient(to right, #fff75e 0%, #ffd53e 50%, #fdb833 100%);
+    text-align: center;
+}
+
+
+.fontSize1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.fontSize2 {
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+.fontSize3 {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.fontSize4 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* 画像中央配置 白枠 */
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #818181; */
+    /* padding: 10px 0; */
+}
+
+.imgBorder {
+    border-color: #818181;
+    border-width: 1px;
+    border-style: solid;
+}
+
+/* リスト */
+.myList {
+    padding-left: 0;
+    display: inline-block;
+    line-height: 30px;
+}
+
+.myListContent {
+    text-align: left;
+    margin: 10px 0;
+}
