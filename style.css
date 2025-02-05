@@ -146,6 +146,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 16px auto
     /* background: #818181; */
     /* padding: 10px 0; */
 }
@@ -154,6 +155,7 @@ footer {
     border-color: #818181;
     border-width: 1px;
     border-style: solid;
+    max-width: 90%;
 }
 
 /* リスト */
