@@ -25,12 +25,9 @@ header {
     color: white;
     padding: 15px;
     text-align: center;
-    position: fixed;
     width: 100%;
-    /* height: fit-content; */
     top: 0;
     left: 0;
-    z-index: 1000;
 }
 
 /* ナビゲーション */
@@ -59,11 +56,11 @@ nav ul li a {
 
 /* メインコンテンツ */
 main {
-    flex-grow: 1;
     background: #2c2c2c;
-    /* padding: 25px; */
     border-radius: 15px;
     color: #f3f3f3;
+    overflow: hidden;
+    min-width: 700px
 }
 
 /* サイドバー */
@@ -72,11 +69,13 @@ aside {
     padding: 20px;
     margin-left: 20px;
     border-radius: 15px;
-    width: 1000px;
-    /* 常に25%を維持 */
-    max-width: 50%;
+    width: 30%;
     min-width: 200px;
-    /* 最小幅を設定して、極端に小さくならないように */
+    height: 80vh;
+    float: right;
+    position: sticky;
+    top: 20px;
+    overflow-y: auto;
 }
 
 /* フッター */
