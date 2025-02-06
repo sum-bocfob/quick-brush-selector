@@ -47,14 +47,13 @@ header {
 /* ナビゲーション */
 nav ul {
     display: flex;
-    justify-content: center;
-    font-weight: bold;
+    text-align: center;
+    font-weight: 800;
     padding-right: 200px;
 }
 
 nav ul li {
-    display: flex;
-    align-items: center;
+    display: inline-block;
     margin: 0 15px;
     list-style: none;
 }
@@ -64,7 +63,6 @@ nav ul li a {
     padding: 10px 10px;
     text-decoration: none;
     color: #216582;
-    font-weight: 800;
 }
 
 /* メインコンテンツとサイドバーのコンテナ */
@@ -98,6 +96,28 @@ aside {
     top: 20px;
     overflow-y: auto;
     text-align: center;
+}
+
+aside ul li {
+    list-style: none;
+}
+
+aside ul li a {
+    display: block; /* <a>タグをブロック要素にして、リストアイテム全体をリンクにする */
+    background-image: url('your-image-url.jpg'); /* 背景画像のURLを設定 */
+    background-size: contain; /* 画像の比率を保ちつつ、要素内に収める */
+    background-position: center; /* 背景画像を中央に配置 */
+    background-repeat: no-repeat; /* 画像が繰り返されないようにする */
+    color: white;  /* テキスト色を白に設定 */
+    width: 80%; /* 幅を80%に設定 */
+    padding-top: 45%; /* 幅に基づいて高さを調整、16:9比率のための値 */
+    text-align: center; /* テキストを中央に配置 */
+    margin: 0 auto; /* 中央に配置 */
+    text-decoration: none; /* リンクの下線を削除 */
+}
+
+aside ul li img{
+    display: none; /* 画像は背景画像として設定したので、表示を非表示に */
 }
 
 
@@ -196,4 +216,20 @@ footer {
 .myListContent {
     text-align: left;
     margin: 10px 0;
+}
+
+.iframe-container {
+    position: relative;
+    width: 80%; /* 幅を親要素の80%に設定 */
+    padding-top: 45%; /* 高さを16:9の比率に設定 (9 / 16 * 100 = 56.25%) */
+    margin: 0 auto; /* 中央に配置 */
+    background-color: #000; /* iframeの背景色を黒に設定 */
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* 幅を親要素に合わせる */
+    height: 100%; /* 高さを親要素に合わせる */
 }
